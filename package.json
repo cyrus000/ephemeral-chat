@@ -1,0 +1,35 @@
+{
+  "name": "secure-ephemeral-chat",
+  "version": "1.0.0",
+  "description": "simple chat client for node",
+  "main": "client.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "command-line-args": "4.0.7",
+    "socket.io": "2.0.4",
+    "socket.io-client": "2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrus000/secure-ephemeral-chat.git"
+  },
+  "keywords": [
+    "socketio",
+    "socket",
+    "chat",
+    "secure"
+  ],
+  "author": "Cyrus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrus000/secure-ephemeral-chat/issues"
+  },
+  "homepage": "https://github.com/cyrus000/secure-ephemeral-chat#readme"
+}
